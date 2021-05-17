@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="py--3">
+            <div class="flex flex-nowrap justify justify--content-between ">
+                <span class="col  col--4 justify justify--content-left">
+                    <p class="link link--muted cursor--pointer pt--1 mb--0">Subscribe</p>
+                </span>
+                <div class="col  col--4">
+                    <h1 class="cursor--pointer text--center justify justify--content-center">Large</h1>
+                </div>
+                <div class="col  col--4 justify justify--content-right">
+                    <div class="flex">
+                        <span class="d--flex col col--2 align--items-center cursor--pointer"><i class="fa fa-search fa-fw text--muted mr--3"></i></span>
+                        <span class="btn btn--outline-secondary btn--sm col col--8 mr--0">Sign up</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav flex justify--content-between flex--nowrap relative py--1">
+
+            <p class="link link--muted cursor--pointer p--2">World</p>
+            <p class="link link--muted cursor--pointer p--2">U.S.</p>
+            <p class="link link--muted cursor--pointer p--2">Technology</p>
+            <p class="link link--muted cursor--pointer p--2">Design</p>
+            <p class="link link--muted cursor--pointer p--2">Culture</p>
+            <p class="link link--muted cursor--pointer p--2">Business</p>
+            <p class="link link--muted cursor--pointer p--2">Politics</p>
+            <p class="link link--muted cursor--pointer p--2">Opinion</p>
+            <p class="link link--muted cursor--pointer p--2">Science</p>
+            <p class="link link--muted cursor--pointer p--2">Health</p>
+            <p class="link link--muted cursor--pointer p--2">Style</p>
+            <p class="link link--muted cursor--pointer p--2">Travel</p>
+
+        </nav>
+        <div class="card card__dark p--3 d--flex p--md-5 mb--5">
+            <div class="col col--md-6">
+
+                <h1 class="card__title--big">Title of a longer featured blog post</h1>
+                <p class="card__para--big my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.</p>
+                <p class="card__para--big cursor--pointer link link--muted text--light text--bold mb--0">Continue reading...</p>
+            </div>
+        </div>
+        <div class="d--flex flex--wrap mb--2">
+            <div class="col col--md-6 pr--md-2">
+
+                <div class="card card--mini mb--4">
+                    <div class="card__body">
+
+                        <p class="text--primary text--bold mb--1">World</p>
+                        <h3 class="card__title--medium">Featured post</h3>
+                        <p class="text--muted mb--1 card__title--below">Nov 12</p>
+                        <p class="card__para">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <p class="link link--primary cursor--pointer">Continue reading</p>
+
+                    </div>
+                    <div class="card__thumbnail">Thumbnail</div>
+
+                </div>
+            </div>
+            <div class="col col--md-6 pl--md-2">
+
+                <div class="card card--mini mb--4">
+                    <div class="card__body">
+
+                        <p class="text--success text--bold mb--1">Design</p>
+                        <h3 class="card__title--medium">Post title</h3>
+                        <p class="text--muted mb--1 card__title--below">Nov 11</p>
+                        <p class="card__para">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <p class="link link--primary cursor--pointer">Continue reading</p>
+
+
+                    </div>
+                    <div class="card__thumbnail">Thumbnail</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="container">
+        <div class="d--flex d--flex--sm-column">
+            <div class="col col--md-8">
+                <h3 class="pb--3 mb--4 border--bottom">From the Firehose</h3>
+                <div class="blog-post">
+                    <h2 class="blog-post__title">
+                        Sample blog post
+                    </h2>
+                    <p class="blog-post__meta">January 1, 2014 by <span class="link link--primary cursor--pointer">Mark</span>
+                    </p>
+                    <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+                    <hr>
+                    <p>
+                        Cum sociis natoque penatibus et magnis <span class="link link--primary cursor--pointer">dis parturient montes</span>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere
+                        consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+                    </p>
+                    <blockquote>
+                        Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                    </blockquote>
+                    <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <h2>Heading</h2>
+                    <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                    <h3>Sub-heading</h3>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <pre>
+                        <code>Example code block
+                        </code>
+                    </pre>
+                    <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+                    <h3>Sub-heading</h3>
+                    <p>
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+                        ut fermentum massa justo sit amet risus.
+                    </p>
+                    <ul>
+                        <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+                        <li>Donec id elit non mi porta gravida at eget metus.</li>
+                        <li>Nulla vitae elit libero, a pharetra augue.</li>
+                    </ul>
+                    <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+                    <ol>
+                        <li>Vestibulum id ligula porta felis euismod semper.</li>
+                        <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+                        <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+                    </ol>
+                    <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+
+                </div>
+                <div class="blog-post">
+                    <h2 class="blog-post__title">Another blog post
+                    </h2>
+                    <p class="blog-post__meta">December 23, 2013 by <span class="link link--primary cursor--pointer">Jacob</span>
+                    </p>
+                    <p>Cum sociis natoque penatibus et magnis <span class="link link--primary cursor--pointer">dis parturient montes</span>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere
+                        consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+                    <blockquote>
+                        <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </blockquote>
+                    <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                </div>
+                <div class="blog-post">
+                    <h2 class="blog-post__title">New feature
+                    </h2>
+                    <p class="blog-post__meta">December 14, 2013 by <span class="link link--primary cursor--pointer">Chris</span>
+                    </p>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                        condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <ul>
+                        <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+                        <li>Donec id elit non mi porta gravida at eget metus.</li>
+                        <li>Nulla vitae elit libero, a pharetra augue.</li>
+                    </ul>
+                    <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+
+                </div>
+                <div class="blog-post__pagination">
+                    <a class="btn btn--outline-primary btn--rounded" href="#">Older</a>
+                    <a class="btn btn--outline-disabled btn--rounded" href="#">Newer</a>
+                </div>
+            </div>
+            <div class="col--md-4 sidebar col--padding">
+                <div class="p--3 mb--3 ">
+                    <h4>About</h4>
+                    <p class="mb--0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                </div>
+                <div class="p--3">
+                    <h4>Archives</h4>
+                    <ol class="list--unstyled mt--0 mb--0">
+                        <li><a class="link link--primary cursor--pointer">March 2014</a></li>
+                        <li><a class="link link--primary cursor--pointer">February 2014</a></li>
+                        <li><a class="link link--primary cursor--pointer">January 2014</a></li>
+                        <li><a class="link link--primary cursor--pointer">December 2013</a></li>
+                        <li><a class="link link--primary cursor--pointer">November 2013</a></li>
+                        <li><a class="link link--primary cursor--pointer">October 2013</a></li>
+                        <li><a class="link link--primary cursor--pointer">September 2013</a></li>
+                        <li><a class="link link--primary cursor--pointer">August 2013</a></li>
+                        <li><a class="link link--primary cursor--pointer">July 2013</a></li>
+                        <li><a class="link link--primary cursor--pointer">June 2013</a></li>
+                        <li><a class="link link--primary cursor--pointer">May 2013</a></li>
+                        <li><a class="link link--primary cursor--pointer">April 2013</a></li>
+                    </ol>
+                </div>
+                <div class="p--3">
+                    <h4>Elsewhere</h4>
+                    <ol class="list--unstyled">
+                        <li><a class="link link--primary cursor--pointer">GitHub</a></li>
+                        <li><a class="link link--primary cursor--pointer">Twitter</a></li>
+                        <li><a class="link link--primary cursor--pointer">Facebook</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Blog template built for <a href="https://getbootstrap.com/" class="link link--primary cursor--pointer">Bootstrap</a> by <a href="https://twitter.com/mdo" class="link link--primary cursor--pointer">@mdo</a>.</p>
+        <p class="mb--0">
+            <a href="https://twitter.com/mdo" class="link link--primary cursor--pointer">Back to top</a>
+        </p>
+    </footer>
+</body>
+
+</html>
