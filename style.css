@@ -353,6 +353,11 @@ section {
   background-color: transparent;
 }
 
+.header__right_item a svg {
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+
 .header__right_item--btn {
   display: inline-block;
   font-weight: 400;
