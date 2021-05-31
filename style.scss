@@ -213,6 +213,15 @@ section {
             &__title {
                 font-style: italic;
             }
+            &__link {
+                text-decoration: none;
+                cursor: pointer;
+                color: $_primary;
+                &:hover {
+                    text-decoration: underline;
+                    color: $_primary_dark;
+                }
+            }
         }
     }
 }
@@ -243,6 +252,13 @@ section {
         padding-right: 15px;
         height: fit-content;
         padding-left: 15px;
+        & a {
+            color: $_muted;
+            cursor: pointer !important;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
     &__center_item {
         text-align: center!important;
@@ -332,7 +348,13 @@ section {
         text-align: center;
         white-space: nowrap;
         & a {
+            text-decoration: none;
+            background-color: transparent;
             padding: .5rem!important;
+            color: #6c757d!important;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }

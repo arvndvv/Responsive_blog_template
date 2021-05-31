@@ -247,6 +247,17 @@ section {
   font-style: italic;
 }
 
+.container .row .sideNav__link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.container .row .sideNav__link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
 .header {
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
@@ -288,6 +299,15 @@ section {
   height: -moz-fit-content;
   height: fit-content;
   padding-left: 15px;
+}
+
+.header__left_item a {
+  color: #6c757d;
+  cursor: pointer !important;
+}
+
+.header__left_item a:hover {
+  text-decoration: underline;
 }
 
 .header__center_item {
@@ -408,7 +428,14 @@ section {
 }
 
 .nav-scroller .nav a {
+  text-decoration: none;
+  background-color: transparent;
   padding: 0.5rem !important;
+  color: #6c757d !important;
+}
+
+.nav-scroller .nav a:hover {
+  text-decoration: underline;
 }
 
 .title-card {
