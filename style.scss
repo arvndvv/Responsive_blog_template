@@ -243,13 +243,6 @@ section {
         padding-right: 15px;
         height: fit-content;
         padding-left: 15px;
-        & a {
-            color: $_muted;
-            cursor: pointer !important;
-            &:hover {
-                text-decoration: underline;
-            }
-        }
     }
     &__center_item {
         text-align: center!important;
@@ -339,13 +332,7 @@ section {
         text-align: center;
         white-space: nowrap;
         & a {
-            text-decoration: none;
-            background-color: transparent;
             padding: .5rem!important;
-            color: #6c757d!important;
-            &:hover {
-                text-decoration: underline;
-            }
         }
     }
 }
@@ -1152,16 +1139,6 @@ ul {
     &__row {
         margin-top: 0;
         margin-bottom: 1rem;
-        & a {
-            color: $_primary;
-            text-decoration: none;
-            background-color: transparent;
-            cursor: pointer;
-            &:hover {
-                text-decoration: underline;
-                color: $_primary_dark;
-            }
-        }
     }
      :last-child {
         margin-bottom: 0;

@@ -290,15 +290,6 @@ section {
   padding-left: 15px;
 }
 
-.header__left_item a {
-  color: #6c757d;
-  cursor: pointer !important;
-}
-
-.header__left_item a:hover {
-  text-decoration: underline;
-}
-
 .header__center_item {
   text-align: center !important;
   -webkit-box-flex: 0;
@@ -417,14 +408,7 @@ section {
 }
 
 .nav-scroller .nav a {
-  text-decoration: none;
-  background-color: transparent;
   padding: 0.5rem !important;
-  color: #6c757d !important;
-}
-
-.nav-scroller .nav a:hover {
-  text-decoration: underline;
 }
 
 .title-card {
@@ -1442,18 +1426,6 @@ ul {
 .blog-footer__row {
   margin-top: 0;
   margin-bottom: 1rem;
-}
-
-.blog-footer__row a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.blog-footer__row a:hover {
-  text-decoration: underline;
-  color: #0056b3;
 }
 
 .blog-footer :last-child {
