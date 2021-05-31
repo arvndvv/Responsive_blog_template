@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @function headings($from:1,
 $to:6) {
@@ -111,9 +110,10 @@ section {
                 flex: 0 0 66.666667%;
                 max-width: 66.666667%;
             }
-            &__head {
+            & .heading {
                 padding-bottom: 1rem!important;
                 margin-bottom: 1.5rem!important;
+                font-style: italic;
                 border-bottom: 1px solid #dee2e6!important;
             }
             & .blog-post {
@@ -193,31 +193,25 @@ section {
                 flex: 0 0 33.333333%;
                 max-width: 33.333333%;
             }
-            & div {
+            &__item {
                 padding: 1rem!important;
-                & ol {
-                    margin-top: 0!important;
-                    padding-left: 0;
-                    list-style: none;
-                    margin-bottom: 0!important;
-                }
-                & a {
-                    color: $_primary!important;
-                    text-decoration: none;
-                    cursor: pointer;
-                    &:hover {
-                        color: $_primary_dark!important;
-                        text-decoration: underline;
+                &--first {
+                    margin-bottom: 1rem!important;
+                    border-radius: .25rem!important;
+                    background-color: #f8f9fa!important;
+                    & p {
+                        margin-bottom: 0!important;
                     }
                 }
             }
-            .about {
-                margin-bottom: 1rem!important;
-                border-radius: .25rem!important;
-                background-color: #f8f9fa!important;
-                & p {
-                    margin-bottom: 0!important;
-                }
+            &__list {
+                margin-top: 0!important;
+                padding-left: 0;
+                list-style: none;
+                margin-bottom: 0!important;
+            }
+            &__title {
+                font-style: italic;
             }
         }
     }
@@ -384,6 +378,7 @@ section {
         line-height: 1.2;
         font-weight: 700;
         font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+        font-style: italic;
         margin-bottom: .5rem;
         margin-top: 0;
         @media (min-width: 768px) {
@@ -481,16 +476,13 @@ section {
             }
         }
         &__type {
+            margin-bottom: .5rem!important;
+            display: inline-block!important;
+            font-weight: bolder;
             &--primary {
-                margin-bottom: .5rem!important;
-                display: inline-block!important;
-                font-weight: bolder;
                 color: $_primary!important;
             }
             &--success {
-                margin-bottom: .5rem!important;
-                display: inline-block!important;
-                font-weight: bolder;
                 color: $_success!important;
             }
         }
@@ -999,6 +991,7 @@ section {
 
 .link {
     text-decoration: none;
+    cursor: pointer;
     &:hover {
         text-decoration: underline;
     }
@@ -1156,7 +1149,7 @@ ul {
     background-color: #f9f9f9;
     border-top: .05rem solid $border_color;
     display: block;
-    & p {
+    &__row {
         margin-top: 0;
         margin-bottom: 1rem;
         & a {

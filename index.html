@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BEM</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -65,7 +66,7 @@
                 <div class="featured-card__container">
                     <div class="featured-card__body">
 
-                        <strong class="featured-card__type--primary">World</strong>
+                        <strong class="featured-card__type featured-card__type--primary">World</strong>
                         <h3 class="featured-card__title"><a href="#">Featured post</a></h3>
                         <div class="featured-card__date">Nov 12</div>
                         <p class="featured-card__desc">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
@@ -81,7 +82,7 @@
                 <div class="featured-card__container">
                     <div class="featured-card__body">
 
-                        <strong class="featured-card__type--success">Design</strong>
+                        <strong class="featured-card__type featured-card__type--success">Design</strong>
                         <h3 class="featured-card__title">Post title</h3>
                         <div class="featured-card__date">Nov 11</div>
                         <p class="featured-card__desc">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
@@ -98,7 +99,7 @@
     <main class="container">
         <div class="row">
             <div class="blog">
-                <h3 class="blog__head">From the Firehose</h3>
+                <h3 class="heading">From the Firehose</h3>
                 <div class="blog-post">
                     <h2 class="blog-post__title">
                         Sample blog post
@@ -178,42 +179,42 @@
                 </div>
             </div>
             <div class="sideNav">
-                <div class="about">
-                    <h4>About</h4>
+                <div class="sideNav__item sideNav__item--first">
+                    <h4 class="sideNav__title">About</h4>
                     <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
                 </div>
-                <div>
-                    <h4>Archives</h4>
-                    <ol>
-                        <li><a>March 2014</a></li>
-                        <li><a>February 2014</a></li>
-                        <li><a>January 2014</a></li>
-                        <li><a>December 2013</a></li>
-                        <li><a>November 2013</a></li>
-                        <li><a>October 2013</a></li>
-                        <li><a>September 2013</a></li>
-                        <li><a>August 2013</a></li>
-                        <li><a>July 2013</a></li>
-                        <li><a>June 2013</a></li>
-                        <li><a>May 2013</a></li>
-                        <li><a>April 2013</a></li>
+                <div class="sideNav__item sideNav__item--second">
+                    <h4 class="sideNav__title">Archives</h4>
+                    <ol class="sideNav__list">
+                        <li><a class="link link--primary">March 2014</a></li>
+                        <li><a class="link link--primary">February 2014</a></li>
+                        <li><a class="link link--primary">January 2014</a></li>
+                        <li><a class="link link--primary">December 2013</a></li>
+                        <li><a class="link link--primary">November 2013</a></li>
+                        <li><a class="link link--primary">October 2013</a></li>
+                        <li><a class="link link--primary">September 2013</a></li>
+                        <li><a class="link link--primary">August 2013</a></li>
+                        <li><a class="link link--primary">July 2013</a></li>
+                        <li><a class="link link--primary">June 2013</a></li>
+                        <li><a class="link link--primary">May 2013</a></li>
+                        <li><a class="link link--primary">April 2013</a></li>
                     </ol>
                 </div>
-                <div>
-                    <h4>Elsewhere</h4>
-                    <ol>
-                        <li><a>GitHub</a></li>
-                        <li><a>Twitter</a></li>
-                        <li><a>Facebook</a></li>
+                <div class="sideNav__item sideNav__item--third">
+                    <h4 class="sideNav__title">Elsewhere</h4>
+                    <ol class="sideNav__list">
+                        <li><a class="link link--primary">GitHub</a></li>
+                        <li><a class="link link--primary">Twitter</a></li>
+                        <li><a class="link link--primary">Facebook</a></li>
                     </ol>
                 </div>
             </div>
         </div>
     </main>
     <footer class="blog-footer">
-        <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-        <p>
-            <a href="https://twitter.com/mdo">Back to top</a>
+        <p class="blog-footer__row">Blog template built for <a href="https://getbootstrap.com/" class="link link--primary">Bootstrap</a> by <a href="https://twitter.com/mdo" class="link link--primary">@mdo</a>.</p>
+        <p class="blog-footer__row">
+            <a href="https://twitter.com/mdo" class="link link--primary">Back to top</a>
         </p>
     </footer>
 </body>
